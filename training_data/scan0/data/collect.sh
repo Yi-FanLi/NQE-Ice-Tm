@@ -1,0 +1,67 @@
+head=/home/tun04379/scratch/scan0_project/1train/
+n=0
+for i in {\
+$head/picked_from_scanpi/data_ex1,\
+$head/picked_from_scanpi2/data_ex2,\
+$head/picked_from_scanpi3/data_ex3,\
+$head/picked_from_scanpi4/data_ex4,\
+$head/picked_from_scanpi5/data_ex5,\
+$head/picked_from_scanpi6/data_ex6,\
+$head/iter1/data1,\
+$head/iter2/data2,\
+$head/iter3/data3,\
+$head/iter4/data4,\
+$head/iter5/data5,\
+$head/iter6/data6,\
+$head/iter7/data7,\
+$head/iter8/data8,\
+$head/iter9/data9,\
+$head/iter10/data10,\
+$head/iter11/data11,\
+$head/iter12/data12,\
+$head/iter13/data13,\
+$head/iter14/data14,\
+$head/iter15/data15,\
+$head/iter16/data16,\
+$head/iter17/data17,\
+$head/iter18/data18,\
+$head/iter19/data19,\
+$head/iter20/data20,\
+$head/iter21/data21,\
+$head/iter22/data22,\
+$head/iter23/data23,\
+$head/iter24/data24,\
+$head/iter25/data25,\
+$head/iter26/data26,\
+$head/iter27/data27,\
+$head/iter28/data28,\
+$head/iter29/data29,\
+$head/iter30/data30,\
+$head/iter31/data31,\
+$head/iter32/data32,\
+$head/iter33/data33,\
+$head/iter34/data34,\
+$head/iter35/data35,\
+$head/iter36/data36,\
+$head/iter37/data37,\
+$head/iter38/data38,\
+$head/iter39/data39,\
+$head/iter40/data40,\
+$head/iter41/data41,\
+$head/iter42/data42,\
+$head/iter43/data43,\
+$head/iter44/data44,\
+$head/iter45/data45,\
+$head/iter46/data46,\
+$head/iter47/data47,\
+$head/iter49_ice/data49_ice,\
+$head/iter50_ice/data50_ice,\
+$head/iter51_ice/data51_ice,\
+}
+do
+   echo $i
+   n=$(($n+1))
+   echo $n
+   cp -r $i .
+done
+
