@@ -6,6 +6,9 @@ Assessment of First-Principles Methods in Modeling the Melting Properties of Wat
 Ab Initio Melting Properties of Water and Ice from Machine Learning Potentials, Yifan Li, Bingjia Yang, Chunyi Zhang, Pinchen Xie, Yixiao Chen, Pablo M. Piaggi, and Roberto Car
 
 ## Table of Contents
+### `dft_inputs`
+This folder contains versioned CP2K labeling inputs organized by density functional.
+
 ### `models`
 This folder contains the four Deep Potential models based on DFT functionals revPBE-D3, revPBE0-D3, SCAN, and SCAN0.
 
