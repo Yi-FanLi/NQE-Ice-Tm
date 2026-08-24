@@ -1,0 +1,14 @@
+[2026-08-24 14:20:01,569] DEEPMD INFO    deepmd.entrypoints.test                       # ---------------output of dp test---------------
+[2026-08-24 14:20:01,570] DEEPMD INFO    deepmd.entrypoints.test                       # testing system : /pscratch/sd/y/yifanl/Work/h2o/train_models/B97M-rV/dpgen-active-learning/publication_B97M-rV/alldata/quantum_liq/deepmd_data
+[2026-08-24 14:20:02,532] DEEPMD INFO    deepmd.entrypoints.test                       # number of test data : 825
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Energy MAE         : 1.159671e-01 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Energy RMSE        : 1.454874e-01 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Energy MAE/Natoms  : 6.039951e-04 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Energy RMSE/Natoms : 7.577471e-04 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Force  MAE         : 5.053717e-02 eV/A
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Force  RMSE        : 6.674010e-02 eV/A
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Virial MAE         : 1.093690e+01 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Virial RMSE        : 1.465915e+01 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Virial MAE/Natoms  : 5.696300e-02 eV
+[2026-08-24 14:20:02,533] DEEPMD INFO    deepmd.entrypoints.test                       Virial RMSE/Natoms : 7.634972e-02 eV
+[2026-08-24 14:20:03,223] DEEPMD INFO    deepmd.entrypoints.test                       # -----------------------------------------------

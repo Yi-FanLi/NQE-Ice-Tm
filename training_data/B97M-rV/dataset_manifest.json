@@ -1,0 +1,45 @@
+{
+  "functional": "B97M-rV",
+  "sampling": "quantum",
+  "type_map": [
+    "O",
+    "H"
+  ],
+  "atom_numbs": [
+    64,
+    128
+  ],
+  "phases": {
+    "quantum_liq": {
+      "configurations": 825,
+      "sources": [
+        {
+          "source": "init_data/liquid/O64H128",
+          "configurations": 590
+        },
+        {
+          "source": "dpgen-workdir/iter.000000/02.fp/data.000/O64H128",
+          "configurations": 235
+        }
+      ]
+    },
+    "quantum_ice": {
+      "configurations": 456,
+      "sources": [
+        {
+          "source": "init_data/ice/O64H128",
+          "configurations": 347
+        },
+        {
+          "source": "dpgen-workdir/iter.000000/02.fp/data.001/O64H128",
+          "configurations": 83
+        },
+        {
+          "source": "dpgen-workdir/iter.000004/02.fp/data.001/O64H128",
+          "configurations": 26
+        }
+      ]
+    }
+  },
+  "total_configurations": 1281
+}
