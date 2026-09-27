@@ -1,0 +1,2 @@
+target_epoch	accepted_epoch	clean_exit	weights_001_source	weights_008_source	weights_001_sha256	weights_008_sha256
+200	200	PASS	weights.001.000200.out	weights.008.000200.out	28be821a5e9c899d019ac6f3bdcdf7167c676112d77577da0e773e5b0277162e	9b51755b1af8fa224fd758014ba82f5a8afe5459529cffeec3e8bba0ad5fe360
