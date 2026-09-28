@@ -48,3 +48,13 @@ existing DeePMD format (angstrom, eV, eV/angstrom); SET3 is supplied as an n2p2
 `input.data` file (bohr, hartree, hartree/bohr). See the
 [SET3 README](training_data/revPBE0-D3/SET3/README.md) for indexing, provenance,
 and checksums. The existing SET2 data and DP model remain at their original paths.
+
+## Independent AIMD test data
+
+[`test_data/revPBE0-D3/`](test_data/revPBE0-D3/) provides the independent
+300 K, 1 bar AIMD test sets: 50 liquid-water and 50 ice-Ih configurations
+(64 H2O each), with separate 400 Ry and 800 Ry reference labels. Both the
+original DeePMD raw files and extended XYZ files are included. These are
+held-out evaluation data, distinct from SET2 and SET3. Use the 800 Ry
+references for SET3-trained models; the original BPNN1/NEP comparisons use
+400 Ry references.
