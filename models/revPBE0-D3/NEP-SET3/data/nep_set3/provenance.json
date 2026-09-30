@@ -1,0 +1,17 @@
+{
+  "model_sha256": "d2e95382e117e9657a60cddf748d87cd3e765177214cfaaf77e8ff0197085f7a",
+  "energy_offset_eV_atom": -156.39267947333917,
+  "energy_plot": "Both predicted and target absolute energy restored by adding the fixed training offset; no fitted alignment.",
+  "test": "Independent800Ry,50water+50ice configurations; none added to training.",
+  "density": "Physical masses H1.00794,O15.9994; SEM from nonoverlapping50ps blocks after200ps water /50ps ice discard; all retained samples enter mean.",
+  "source_sha256": {
+    "evaluation/training/energy_train.out.gz": "ec2cefd7dd30b652ad0e0cbf2c69685334e49e5283380879783dde51efd9f57c",
+    "evaluation/training/force_train.out.gz": "e6f86b1993a04aa826fa3620fb3f6c198a5725ed426eb5f7a55448f1e3ac97f2",
+    "evaluation/liq/energy_train.out.gz": "09de31d00ebc7479f27fc9a93042988dd764295d4b91a05a84be3ca5d65d2167",
+    "evaluation/liq/force_train.out.gz": "6f002c7277779efc85e686df33a936e401b89036ff589b6c6ff8bdc47f4afcf7",
+    "evaluation/ice/energy_train.out.gz": "bc61a2223f3c53667fd8f400829d97caf4994b1d4bae3968ac5adb9ae5d1e77d",
+    "evaluation/ice/force_train.out.gz": "616e6dc522baaf5200af67108f0a48f61f43cd6fcfe4aabdd3c67920478d9349",
+    "md/water/thermo.out.gz": "d5c6250c1296bef2b7128bb84627535aa24c96dbdb6dd94ef107edb043e49daa",
+    "md/ice/thermo.out.gz": "af34f13fb38063e94e5640096010e2964c6b9e4f8aacf52f11cd2d404288d12f"
+  }
+}

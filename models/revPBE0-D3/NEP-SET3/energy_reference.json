@@ -1,0 +1,7 @@
+{
+  "training_frames": 2556,
+  "atoms_per_frame": 192,
+  "energy_offset_eV_per_atom": -156.39267947333917,
+  "energy_convention": "E_training = E_DFT - N_atoms * energy_offset_eV_per_atom; add this offset to predictions to restore absolute DFT energies.",
+  "SET3_sha256": "8a2af01e382851ce37bc987420c84e28b680d4fade1bd42ead3ee66d0bacb36c"
+}

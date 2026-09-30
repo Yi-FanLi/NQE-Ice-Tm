@@ -1,0 +1,15 @@
+{
+  "generation_target": 400000,
+  "batch": 25,
+  "population": 52,
+  "GPUs": 4,
+  "GPU_type": "A100",
+  "initialization": "Native fresh random initialization; no nep.restart or nep.txt. CPU RNG uses wall-clock seed in non-DEBUG GPUMD; native GPU perturbation seed is fixed. Actual numeric clock seed is not emitted by this executable.",
+  "executable_sha256": "0b683847fd86fcebbf56caeec61a25808dd823b58f32de8436473087a9db6e74",
+  "independent_test": "same 100 independent 800Ry frames; not added to training",
+  "model_sha256": "d2e95382e117e9657a60cddf748d87cd3e765177214cfaaf77e8ff0197085f7a",
+  "md_jobs": {
+    "water": 59094391,
+    "ice": 59090743
+  }
+}

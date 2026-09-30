@@ -1,0 +1,2 @@
+phase	trajectory_frames	discard_ps	mean_global_oxygen_Q6	first_half_Q6	second_half_Q6	oxygen_MSD_lag10ps_A2	oxygen_MSD_lag50ps_A2	oxygen_MSD_lag100ps_A2
+ice	500	50	0.4165797873863582	0.41201709467449027	0.420944102154232	0.35239200725017106	0.33119211618372807	0.33829169943843596

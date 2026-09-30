@@ -1,0 +1,6 @@
+# Preserve exact bytes of original GPUMD outputs and starting structures.
+nep.txt -whitespace
+training/loss.out -whitespace
+training/train.log -whitespace
+training/nep.restart -whitespace
+md/*/model.xyz -whitespace

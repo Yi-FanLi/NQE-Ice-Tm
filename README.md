@@ -32,7 +32,7 @@ there is no separate `SET2/` directory.
 **SET3** is SET2 plus 778 configurations added through BPNN active learning,
 for a total of 2,556 configurations. The frozen final iteration (`iter04`)
 is in [`training_data/revPBE0-D3/SET3/`](training_data/revPBE0-D3/SET3/)
-and is the training set for BPNN3.
+and is the training set for BPNN3 and the SET3-trained NEP.
 
 | Configurations | SET2 | SET3 | Existing SET2 location under `alldata/` |
 | --- | ---: | ---: | --- |
@@ -58,3 +58,12 @@ original DeePMD raw files and extended XYZ files are included. These are
 held-out evaluation data, distinct from SET2 and SET3. Use the 800 Ry
 references for SET3-trained models; the original BPNN1/NEP comparisons use
 400 Ry references.
+
+## SET3-trained NEP reproduction package
+
+The single NEP used for the paper's SET3 validation and density results is
+available in [`models/revPBE0-D3/NEP-SET3/`](models/revPBE0-D3/NEP-SET3/).
+It includes the trained potential, exact training and MD inputs, converted
+training/test data, archived predictions and density outputs, analysis scripts,
+and figure notebooks. See its README for the fixed energy offset, software
+version, units, checksums, and reproduction commands.

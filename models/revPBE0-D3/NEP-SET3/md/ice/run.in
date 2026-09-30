@@ -1,0 +1,8 @@
+potential nep.txt
+velocity 300 seed 928002
+time_step 0.5
+ensemble npt_mttk temp 300 300 aniso 0.0001 0.0001 tperiod 200 pperiod 1000
+dump_thermo 200
+dump_exyz 2000 0 0
+dump_restart 100000
+run 1000000
